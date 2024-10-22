@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IQ Level Test</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the IQ Level Test</h1>
+  </header>
+
+  <section id="level-select">
+    <h2>Select Difficulty Level</h2>
+    <button class="level-btn" data-level="easy">Easy</button>
+    <button class="level-btn" data-level="medium">Medium</button>
+    <button class="level-btn" data-level="hard">Hard</button>
+  </section>
+
+  <section id="quiz" style="display:none;">
+    <div id="timer">5:00</div>
+    <div id="question-container">
+
+    </div>
+    <button id="next-btn" style="display:none;">Next</button>
+  </section>
+
+  <section id="result" style="display:none;">
+    <h2>Your IQ Score: <span id="score"></span></h2>
+    <p id="result-message"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
